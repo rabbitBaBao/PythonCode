@@ -1,0 +1,48 @@
+2022-09-04 17:30:20,096-INFO-test_case.py-Line:27-Message:用例开始执行
+2022-09-04 17:30:22,175-ERROR-test_case.py-Line:54-Message:用例1:创建宠物1执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE0B066200>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:30:22,175-INFO-test_case.py-Line:30-Message:用例执行结束
+2022-09-04 17:30:22,871-INFO-test_case.py-Line:27-Message:用例开始执行
+2022-09-04 17:30:24,917-ERROR-test_case.py-Line:54-Message:用例2:创建宠物2执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE0B067130>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:30:24,917-INFO-test_case.py-Line:30-Message:用例执行结束
+2022-09-04 17:30:24,933-INFO-test_case.py-Line:27-Message:用例开始执行
+2022-09-04 17:30:26,965-ERROR-test_case.py-Line:40-Message:用例1:在售宠物执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE0B0653C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:30:26,965-INFO-test_case.py-Line:30-Message:用例执行结束
+2022-09-04 17:30:26,981-INFO-test_case.py-Line:27-Message:用例开始执行
+2022-09-04 17:30:29,028-ERROR-test_case.py-Line:40-Message:用例3:不存在宠物执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet/3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001EE0B067AC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:30:29,028-INFO-test_case.py-Line:30-Message:用例执行结束
+2022-09-04 17:55:27,980-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:55:30,042-ERROR-test_case.py-Line:65-Message:用例1:创建宠物1执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D19D7F6200>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:55:30,043-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:55:30,106-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:55:32,152-ERROR-test_case.py-Line:65-Message:用例2:创建宠物2执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D19D7F7130>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:55:32,152-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:55:32,168-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:55:34,199-ERROR-test_case.py-Line:45-Message:用例1:在售宠物执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet/1 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D19D7F57E0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:55:34,199-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:55:34,214-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:55:36,261-ERROR-test_case.py-Line:45-Message:用例3:不存在宠物执行失败:HTTPConnectionPool(host='127.0.0.1', port=4523): Max retries exceeded with url: /m1/1518041-0-default/pet/3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D19D7F7AC0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))
+2022-09-04 17:55:36,262-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:56:19,299-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:56:19,418-INFO-test_case.py-Line:68-Message:用例1:创建宠物1 测试通过
+2022-09-04 17:56:19,418-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:56:19,418-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:56:19,465-INFO-test_case.py-Line:68-Message:用例2:创建宠物2 测试通过
+2022-09-04 17:56:19,465-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:56:19,465-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:56:19,502-ERROR-test_case.py-Line:45-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-04 17:56:19,502-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:56:19,512-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:56:19,543-INFO-test_case.py-Line:48-Message:用例3:不存在宠物 测试通过
+2022-09-04 17:56:19,543-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:58:54,542-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:58:54,574-INFO-test_case.py-Line:68-Message:用例1:创建宠物1 测试通过
+2022-09-04 17:58:54,574-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:58:54,574-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:58:54,605-INFO-test_case.py-Line:68-Message:用例2:创建宠物2 测试通过
+2022-09-04 17:58:54,605-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:58:54,605-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:58:54,621-ERROR-test_case.py-Line:45-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-04 17:58:54,621-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-04 17:58:54,637-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-04 17:58:54,668-INFO-test_case.py-Line:48-Message:用例3:不存在宠物 测试通过
+2022-09-04 17:58:54,668-INFO-test_case.py-Line:35-Message:用例执行结束

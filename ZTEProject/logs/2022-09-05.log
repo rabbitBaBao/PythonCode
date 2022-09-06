@@ -1,0 +1,60 @@
+2022-09-05 00:18:54,493-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 00:18:54,628-INFO-test_case.py-Line:69-Message:用例1:创建宠物1 测试通过
+2022-09-05 00:18:54,628-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 00:18:54,628-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 00:18:54,673-INFO-test_case.py-Line:69-Message:用例2:创建宠物2 测试通过
+2022-09-05 00:18:54,673-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 00:18:54,674-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 00:18:54,709-ERROR-test_case.py-Line:46-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-05 00:18:54,709-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 00:18:54,718-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 00:18:54,757-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
+2022-09-05 00:18:54,757-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:25:22,090-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:25:22,194-INFO-test_case.py-Line:69-Message:用例1:创建宠物1 测试通过
+2022-09-05 21:25:22,194-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:25:22,194-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:25:22,235-INFO-test_case.py-Line:69-Message:用例2:创建宠物2 测试通过
+2022-09-05 21:25:22,236-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:25:22,236-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:25:22,266-ERROR-test_case.py-Line:46-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-05 21:25:22,266-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:25:22,350-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:25:22,382-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
+2022-09-05 21:25:22,382-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:38:59,963-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:39:00,004-INFO-test_case.py-Line:69-Message:用例1:创建宠物1 测试通过
+2022-09-05 21:39:00,004-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:39:00,007-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:39:00,047-INFO-test_case.py-Line:69-Message:用例2:创建宠物2 测试通过
+2022-09-05 21:39:00,048-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:39:00,048-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:39:00,082-ERROR-test_case.py-Line:46-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-05 21:39:00,082-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:39:00,090-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:39:00,119-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
+2022-09-05 21:39:00,119-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:40:52,562-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:40:52,603-INFO-test_case.py-Line:69-Message:用例1:创建宠物1 测试通过
+2022-09-05 21:40:52,604-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:40:52,604-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:40:52,641-INFO-test_case.py-Line:69-Message:用例2:创建宠物2 测试通过
+2022-09-05 21:40:52,642-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:40:52,642-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:40:52,674-ERROR-test_case.py-Line:46-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-05 21:40:52,674-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 21:40:52,681-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 21:40:52,709-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
+2022-09-05 21:40:52,709-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 22:06:51,914-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 22:06:51,982-INFO-test_case.py-Line:69-Message:用例1:创建宠物1 测试通过
+2022-09-05 22:06:51,983-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 22:06:51,983-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 22:06:52,037-INFO-test_case.py-Line:69-Message:用例2:创建宠物2 测试通过
+2022-09-05 22:06:52,037-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 22:06:52,038-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 22:06:52,087-ERROR-test_case.py-Line:46-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-05 22:06:52,088-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-05 22:06:52,103-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-05 22:06:52,160-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
+2022-09-05 22:06:52,160-INFO-test_case.py-Line:36-Message:用例执行结束
