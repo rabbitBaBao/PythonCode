@@ -1,8 +1,7 @@
 """
 @Name: log.py
-@Auth: ZTE黄家健
+@Auth: 黄家健
 @Date: 2022/8/30-23:05
-@Email:huang.jiajian@zte.com.cn
 """
 import logging
 import os

@@ -1,8 +1,7 @@
 """
 @Name: read_config.py
-@Auth: ZTE黄家健
+@Auth: 黄家健
 @Date: 2022/9/3-9:58
-@Email:huang.jiajian@zte.com.cn
 """
 import configparser
 

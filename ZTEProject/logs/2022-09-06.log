@@ -10,3 +10,27 @@
 2022-09-06 22:08:45,530-INFO-test_case.py-Line:33-Message:用例开始执行
 2022-09-06 22:08:45,575-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
 2022-09-06 22:08:45,576-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-06 23:35:56,681-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-06 23:35:56,770-INFO-test_case.py-Line:69-Message:用例1:创建宠物1 测试通过
+2022-09-06 23:35:56,771-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-06 23:35:56,771-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-06 23:35:56,806-INFO-test_case.py-Line:69-Message:用例2:创建宠物2 测试通过
+2022-09-06 23:35:56,807-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-06 23:35:56,807-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-06 23:35:56,841-ERROR-test_case.py-Line:46-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-06 23:35:56,841-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-06 23:35:56,849-INFO-test_case.py-Line:33-Message:用例开始执行
+2022-09-06 23:35:56,879-INFO-test_case.py-Line:49-Message:用例3:不存在宠物 测试通过
+2022-09-06 23:35:56,880-INFO-test_case.py-Line:36-Message:用例执行结束
+2022-09-06 23:39:37,248-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-06 23:39:37,288-INFO-test_case.py-Line:68-Message:用例1:创建宠物1 测试通过
+2022-09-06 23:39:37,288-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-06 23:39:37,289-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-06 23:39:37,323-INFO-test_case.py-Line:68-Message:用例2:创建宠物2 测试通过
+2022-09-06 23:39:37,323-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-06 23:39:37,324-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-06 23:39:37,357-ERROR-test_case.py-Line:45-Message:用例1:在售宠物执行失败:201 != 200
+2022-09-06 23:39:37,357-INFO-test_case.py-Line:35-Message:用例执行结束
+2022-09-06 23:39:37,364-INFO-test_case.py-Line:32-Message:用例开始执行
+2022-09-06 23:39:37,396-INFO-test_case.py-Line:48-Message:用例3:不存在宠物 测试通过
+2022-09-06 23:39:37,396-INFO-test_case.py-Line:35-Message:用例执行结束

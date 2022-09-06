@@ -1,8 +1,7 @@
 """
-@Name: doexecl.py
-@Auth: ZTE黄家健
+@Name: do_execl.py
+@Auth: 黄家健
 @Date: 2022/8/29-20:15
-@Email:huang.jiajian@zte.com.cn
 """
 from openpyxl import load_workbook
 from tools.project_path import tset_case_path, config_path

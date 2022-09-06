@@ -1,12 +1,11 @@
 """
 @Name: test_case.py
-@Auth: ZTE黄家健
+@Auth: 黄家健
 @Date: 2022/8/26-22:07
-@Email:huang.jiajian@zte.com.cn
 """
 import unittest
 import requests
-from tools.doexecl import DoExcel
+from tools.do_execl import DoExcel
 from tools.project_path import tset_case_path, config_path
 from tools.log import run_log as log
 from ddt import ddt, data, unpack, file_data
