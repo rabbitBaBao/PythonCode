@@ -1,0 +1,169 @@
+2022-12-24 21:12:53,866-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:12:53,972-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:12:54,077-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:12:54,094-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:12:55,485-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:12:55,498-ERROR-base_page.py-Line:46-Message:查找元素失败
+Traceback (most recent call last):
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 44, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=108.0.5359.125)
+
+2022-12-24 21:15:30,895-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:15:30,997-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:15:31,093-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:15:31,109-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:15:36,495-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:15:36,508-ERROR-base_page.py-Line:46-Message:查找元素失败
+Traceback (most recent call last):
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 44, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=108.0.5359.125)
+
+2022-12-24 21:17:02,834-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:17:02,938-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:17:03,036-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:17:03,050-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:17:12,550-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002296B6AAB00>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/6b04fed488be08437b393c2cf5b92dac/refresh
+2022-12-24 21:17:14,572-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002296B79E400>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/6b04fed488be08437b393c2cf5b92dac/refresh
+2022-12-24 21:17:16,599-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002296B79E748>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/6b04fed488be08437b393c2cf5b92dac/refresh
+2022-12-24 21:17:21,559-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:17:21,637-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:17:21,721-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:17:21,741-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:17:27,039-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002296BB2FBA8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/6e1b9448971de02713c341d305b0ecea/refresh
+2022-12-24 21:17:29,067-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002296B6AAC18>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/6e1b9448971de02713c341d305b0ecea/refresh
+2022-12-24 21:17:31,086-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002296B6AAEF0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/6e1b9448971de02713c341d305b0ecea/refresh
+2022-12-24 21:18:49,181-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:18:49,298-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:18:49,399-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:18:49,418-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:18:58,943-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CCAB931400>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/50cf5b458168283192a9656df1dd2e3c/refresh
+2022-12-24 21:19:00,966-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CCABA1E438>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/50cf5b458168283192a9656df1dd2e3c/refresh
+2022-12-24 21:19:02,991-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CCABA1E780>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/50cf5b458168283192a9656df1dd2e3c/refresh
+2022-12-24 21:19:07,373-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:19:07,447-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:19:07,519-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:19:07,536-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:19:12,850-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CCABDAEBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/724542dd251cc68d1c89e739e384bc23/refresh
+2022-12-24 21:19:14,875-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CCAB931C50>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/724542dd251cc68d1c89e739e384bc23/refresh
+2022-12-24 21:19:16,908-WARNING-connectionpool.py-Line:813-Message:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CCAB931F28>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。',)': /session/724542dd251cc68d1c89e739e384bc23/refresh
+2022-12-24 21:24:45,387-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:24:45,483-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:24:45,586-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:24:45,603-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:30:54,374-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:30:54,468-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:30:54,562-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:30:54,578-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:43:38,634-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:43:38,729-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:43:38,827-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:43:38,844-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:43:41,087-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 21:43:41,110-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[text()='退出']")
+2022-12-24 21:43:41,119-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[text()='退出']")
+2022-12-24 21:55:28,100-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:55:28,201-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 21:55:28,300-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 21:55:28,315-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 21:55:28,503-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 21:55:30,541-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 21:55:30,568-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[text()='退出']")
+2022-12-24 21:55:30,577-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[text()='退出']")
+2022-12-24 21:55:30,893-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 21:55:30,905-ERROR-base_page.py-Line:55-Message:查找元素失败
+Traceback (most recent call last):
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 53, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=108.0.5359.125)
+
+2022-12-24 22:00:31,471-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 22:00:31,570-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 22:00:31,666-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 22:00:31,683-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 22:00:31,887-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 22:00:33,933-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 22:00:33,959-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[text()='退出']")
+2022-12-24 22:00:33,968-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[text()='退出']")
+2022-12-24 22:00:34,172-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 22:00:34,186-ERROR-base_page.py-Line:55-Message:查找元素失败
+Traceback (most recent call last):
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 53, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='submit']"}
+  (Session info: chrome=108.0.5359.125)
+
+2022-12-24 22:00:34,613-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 22:00:34,624-ERROR-base_page.py-Line:55-Message:查找元素失败
+Traceback (most recent call last):
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 53, in get_element
+    return self.driver.find_element(*locator)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+    'value': value})['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='username']"}
+  (Session info: chrome=108.0.5359.125)
+
+2022-12-24 22:09:46,915-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:09:46,940-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:09:47,141-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 22:09:47,238-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 22:09:47,328-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 22:09:47,341-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 22:09:47,514-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 22:09:49,560-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 22:09:49,590-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[text()='退出']")
+2022-12-24 22:09:49,598-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[text()='退出']")
+2022-12-24 22:09:49,924-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:09:49,935-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:09:50,111-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 22:09:50,178-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 22:09:50,246-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 22:09:50,256-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 22:17:09,246-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:17:09,266-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:17:09,461-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 22:17:09,575-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 22:17:09,672-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 22:17:09,687-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-24 22:17:09,892-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 22:17:11,946-INFO-base_page.py-Line:42-Message:判断元素('xpath', "//a[text()='退出']")是否存在
+2022-12-24 22:17:11,977-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[text()='退出']")
+2022-12-24 22:17:11,990-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[text()='退出']")
+2022-12-24 22:17:12,376-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:17:12,388-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//a[@href='user.php']")
+2022-12-24 22:17:12,587-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-24 22:17:12,658-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-24 22:17:12,733-INFO-base_page.py-Line:51-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-24 22:17:12,746-INFO-base_page.py-Line:62-Message:点击元素('xpath', "//input[@name='submit']")

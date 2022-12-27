@@ -1,0 +1,86 @@
+2022-12-19 22:57:24,413-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 22:57:24,488-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 22:57:24,560-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:24,576-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:29,850-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 22:57:29,948-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 22:57:30,044-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:30,061-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:39,495-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 22:57:39,576-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 22:57:39,669-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:39,682-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:59,533-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 22:57:59,620-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 22:57:59,712-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 22:57:59,733-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 22:58:19,757-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 22:58:19,912-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 22:58:20,010-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 22:58:20,027-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:23,858-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:00:23,935-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:00:24,004-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:24,023-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:24,086-ERROR-base_page.py-Line:58-Message:点击元素失败
+Traceback (most recent call last):
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 56, in click_element
+    self.save_screenshot(caller_info)
+  File "D:\Program Files\PythonCode\WebTestFrame\Common\base_page.py", line 118, in save_screenshot
+    self.driver.save_screenshot(picture_file)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1055, in save_screenshot
+    return self.get_screenshot_as_file(filename)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1032, in get_screenshot_as_file
+    png = self.get_screenshot_as_png()
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1064, in get_screenshot_as_png
+    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1074, in get_screenshot_as_base64
+    return self.execute(Command.SCREENSHOT)['value']
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "D:\Program Files\Python36\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 241, in check_response
+    raise exception_class(message, screen, stacktrace, alert_text)
+selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: - 用户名不能为空。
+- 登录密码不能为空。
+
+Message: unexpected alert open: {Alert text : - 用户名不能为空。
+- 登录密码不能为空。
+}
+  (Session info: chrome=108.0.5359.125)
+
+2022-12-19 23:00:28,415-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:00:28,501-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:00:28,599-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:28,614-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:34,180-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:00:34,268-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:00:34,368-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:34,387-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:50,342-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:00:50,429-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:00:50,523-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:00:50,537-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:01:06,505-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:01:06,606-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:01:06,747-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:01:06,764-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:09:44,743-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:09:44,822-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:09:44,889-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:09:44,905-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:09:50,389-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:09:50,554-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:09:50,690-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:09:50,706-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:09:56,172-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:09:56,274-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:09:56,377-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:09:56,397-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:10:12,262-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:10:12,354-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:10:12,449-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:10:12,463-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
+2022-12-19 23:10:28,284-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='username']")
+2022-12-19 23:10:28,374-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='password']")
+2022-12-19 23:10:28,470-INFO-base_page.py-Line:42-Message:查找元素('xpath', "//input[@name='submit']")
+2022-12-19 23:10:28,487-INFO-base_page.py-Line:53-Message:点击元素('xpath', "//input[@name='submit']")
